@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  width: 85%;
+  height: 30%;
+}
+
+.sideBar {
+  width: 30%;
+  background: red;
+}
+
+.rightBlock {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.doubleBlock {
+  display: flex;
+  height: 15%;
+}
+
+.doubleBlock div {
+  width: 50%;
+}
+
+.top .left {
+  background: blue;
+}
+
+.top .right {
+  background: green;
+}
+
+.middle {
+  height: 70%;
+  background: purple;
+}
+
+.bottom .left {
+  background: burlywood;
+}
+
+.bottom .right {
+  background: beige;
+}
+
+.block {
+  border: 1px solid black;
+}
+
+.block:hover {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+  cursor: pointer;
+}
